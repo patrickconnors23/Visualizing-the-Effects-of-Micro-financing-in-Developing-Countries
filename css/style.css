@@ -1,0 +1,42 @@
+
+/* ADD YOUR STYLES HERE */
+h1 {
+  text-align: center;
+  color:#001837;
+}
+
+.chart-labels{
+  fill:grey;
+  font-size: 9px;
+}
+
+.axis {
+    font: 10px sans-serif;
+}
+
+.axis path,
+.axis line,
+.domain {
+    fill: none;
+    stroke: #888;
+    shape-rendering: crispEdges;
+}
+
+.area {
+    fill: #4ccead;
+}
+
+.rect-class {
+  fill: #2b5695;
+}
+
+.headrow {
+  margin: 40px;
+}
+
+
+.brush .extent {
+  stroke: #fff;
+  fill-opacity: .125;
+  shape-rendering: crispEdges;
+}
